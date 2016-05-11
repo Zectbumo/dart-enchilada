@@ -2,6 +2,6 @@ import 'dart:html';
 
 import 'package:enchilada/src/enchilada.dart';
 
-main(String[] args) {
-  print(getEnchilada());
+void main(List<String> arguments) {
+  document.body.appendText(getEnchilada());
 }
