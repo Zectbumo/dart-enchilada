@@ -1,4 +1,5 @@
-.packages
-pubspec.lock
+/.packages
+/pubspec.lock
 /build
 **/packages
+/doc/api
