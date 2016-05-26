@@ -1,7 +1,7 @@
-import 'dart:html';
+import 'package:angular2/platform/browser.dart';
 
-import 'package:enchilada/src/enchilada.dart';
+import 'package:enchilada/src/app_component.dart';
 
-void main([List<String> arguments = const []]) {
-  document.body.appendText(getEnchilada());
+main() {
+  bootstrap(AppComponent);
 }

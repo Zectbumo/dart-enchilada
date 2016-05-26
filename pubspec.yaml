@@ -1,3 +1,15 @@
 name: "enchilada"
+
+environment:
+  sdk: ">=1.15.0 <2.0.0"
+
 dependencies:
   browser: "^0.10.0+2"
+  angular2: ^2.0.0-beta.17
+
+transformers:
+- angular2:
+    platform_directives:
+      - package:angular2/common.dart#CORE_DIRECTIVES
+      - package:angular2/common.dart#FORM_DIRECTIVES
+    entry_points: web/main.dart
